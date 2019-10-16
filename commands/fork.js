@@ -61,16 +61,13 @@ function getToApp(context) {
 }
 
 function* fork (context, heroku) {
-  console.log('HEROKU FORK IS UNMAINTAINED AND MAY NO LONGER FUNCTION.');
-  console.log('HEROKU FORK IS UNMAINTAINED AND MAY NO LONGER FUNCTION.');
-  console.log('HEROKU FORK IS UNMAINTAINED AND MAY NO LONGER FUNCTION.');
-  console.log('HEROKU FORK IS UNMAINTAINED AND MAY NO LONGER FUNCTION.');
-  console.log('HEROKU FORK IS UNMAINTAINED AND MAY NO LONGER FUNCTION.');
-  console.log('HEROKU FORK IS UNMAINTAINED AND MAY NO LONGER FUNCTION.');
+  console.log('FWC HEROKU FORK IS NOW MAINTAINED BY DUMMYS AND MAY NO LONGER FUNCTION AS WELL - WE ARE DOING OUR BEST.');
   let apps = new Apps(heroku);
+  console.log(apps)
   let postgres = new Postgres(heroku);
+  console.log(postgres)
   let addons = new Addons(heroku, postgres);
-
+  console.log(addons)
   let oldApp = yield apps.getApp(fromAppName);
   let slug   = yield apps.getLastSlug(oldApp);
 
