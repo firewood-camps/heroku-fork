@@ -1,7 +1,7 @@
-heroku-fork
+FWC heroku-fork
 ===========
 
-Heroku CLI plugin to fork an existing app into a new app.
+A FWC fork of a Heroku CLI plugin to fork an existing app into a new app.
 
 **DEPRECATED**: Heroku fork is deprecated as a core command. It will no longer be included in the CLI by default 2017-12-01. We recommend using [review apps](https://devcenter.heroku.com/articles/github-integration-review-apps) instead of fork if it will work for your use-case:. You may also fork the [Github project](https://github.com/heroku/heroku-fork) to continue using this project as a CLI plugin. See [Developing CLI Plugins](https://devcenter.heroku.com/articles/developing-cli-plugins) for more information on developing plugins.
 
@@ -9,7 +9,7 @@ Installation
 ============
 
 ```
-heroku plugins:install heroku-fork
+heroku plugins:install fwc-heroku-fork
 ```
 
 Commands
