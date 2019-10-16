@@ -1,4 +1,4 @@
-FWC heroku-fork
+A FWC fork of heroku-fork
 ===========
 
 A FWC fork of a Heroku CLI plugin to fork an existing app into a new app.
