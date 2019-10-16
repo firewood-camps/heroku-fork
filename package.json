@@ -1,12 +1,13 @@
 {
-  "name": "heroku-fork",
-  "description": "Heroku CLI plugin to fork an existing app into a new app.",
+  "name": "fwc-heroku-fork",
+  "description": "A FWC Fork of the Heroku CLI plugin to fork an existing app into a new app. Thank you Jeff Dickey (@dickeyxxx) for the tool. I do not know you, but for what I need it is rad.",
   "version": "4.1.29",
   "author": "Jeff Dickey (@dickeyxxx)",
   "bugs": {
     "url": "https://github.com/heroku/heroku-fork/issues"
   },
   "dependencies": {
+    "@heroku-cli/command": "^8.2.14",
     "co": "4.x",
     "heroku-cli-addons": "^1.2.26",
     "heroku-cli-util": "^6.2.0",
@@ -25,7 +26,7 @@
     "/lib",
     "/commands"
   ],
-  "homepage": "https://github.com/heroku/heroku-fork",
+  "homepage": "",
   "keywords": [
     "heroku-plugin"
   ],
@@ -33,7 +34,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/heroku-fork.git"
+    "url": "https://github.com/firewood-camps/heroku-fork.git"
   },
   "scripts": {
     "test": "nyc mocha && jshint ."
